@@ -7,7 +7,7 @@
 
 An ESP32 based presence detection node for use with the [Home Assistant](https://www.home-assistant.io/) [`mqtt_room` component](https://www.home-assistant.io/components/sensor.mqtt_room/) for localized device presence detection.
 
-**Documentation:** https://espresence.com/
+**Documentation:** https://espresence.io/
 
 **Building:** [building](./BUILDING.md).
 
