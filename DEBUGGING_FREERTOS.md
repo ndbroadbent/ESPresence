@@ -15,7 +15,7 @@ NXP have a free FreeRTOS debug plugin for Eclipse which will give more detailed 
 3. Double click on ``` GDB Hardware Debugging``` to create a new configuration
 4. On the *Main* tab -
     a. **Project** - Can be left blank, or point to project code.
-    b. **C/C++ Application** - Point to the ```firmware.elf``` file. If built from PlatformIO will be in the ```ESPresense/.pio/build/<env name>``` directory. 
+    b. **C/C++ Application** - Point to the ```firmware.elf``` file. If built from PlatformIO will be in the ```ESPresence/.pio/build/<env name>``` directory. 
     c. **Build** - Disable auto build
 5. On the *Debugger* tab -
     a. **GDB Command** - Path to ```xtensa-esp32-elf-gdb.exe```, if using defaults in PlatformIO will be ```~/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-gdb.exe```

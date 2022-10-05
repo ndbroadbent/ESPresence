@@ -24,14 +24,14 @@ String updateUrl;
 
 String getFirmwareUrl() {
 #ifdef FIRMWARE
-    if (!prerelease) return "https://github.com/ESPresense/ESPresense/releases/latest/download/" FIRMWARE ".bin";
+    if (!prerelease) return "https://github.com/ESPresence/ESPresence/releases/latest/download/" FIRMWARE ".bin";
     #ifdef BRANCH
-        return "https://espresense.com/artifacts/latest/download/" BRANCH "/" FIRMWARE ".bin";
+        return "https://espresence.com/artifacts/latest/download/" BRANCH "/" FIRMWARE ".bin";
     #else
-        return "https://espresense.com/releases/latest-any/download/" FIRMWARE ".bin";
+        return "https://espresence.com/releases/latest-any/download/" FIRMWARE ".bin";
     #endif
 #else
-    return "https://github.com/ESPresense/ESPresense/releases/latest/download/esp32.bin";
+    return "https://github.com/ESPresence/ESPresence/releases/latest/download/esp32.bin";
 #endif
 }
 

@@ -16,7 +16,7 @@
           <path d="M112.2 101.9a7.9 7.9 0 0 1 .3 2.1 8.3 8.3 0 1 1-8.3-8.3 8.5 8.5 0 0 1 2.5.4l19.4-19.6a35.1 35.1 0 1 0-3.7 57.6 13 13 0 0 1 12.2-17.7 12.8 12.8 0 0 1 2.5.2 35.1 35.1 0 0 0-5-34.1z"/>
         </svg>
 
-        <span class="text-gray-900 dark:text-gray-100 ml-2 text-3xl font-thin"> ESPresense </span>
+        <span class="text-gray-900 dark:text-gray-100 ml-2 text-3xl font-thin"> ESPresence </span>
       </div>
       <nav class="mt-10 px-6 ">
         <SidebarItem icon="device" title="Devices" href="/" />

@@ -71,9 +71,9 @@ String HttpReleaseUpdate::getLastErrorString(void) {
 HttpUpdateResult HttpReleaseUpdate::handleUpdate(HTTPClient& http) {
     HttpUpdateResult ret = HTTP_UPDATE_FAILED;
 #ifdef VERSION
-    http.setUserAgent("ESPresense/" VERSION);
+    http.setUserAgent("ESPresence/" VERSION);
 #else
-    http.setUserAgent("ESPresense/0.0");
+    http.setUserAgent("ESPresence/0.0");
 #endif
 
     int code = http.GET();

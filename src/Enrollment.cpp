@@ -195,7 +195,7 @@ namespace Enrollment
 
         NimBLEService *deviceInfo = pServer->createService("180A");
         NimBLECharacteristic *manufName = deviceInfo->createCharacteristic("2A29", NIMBLE_PROPERTY::READ);
-        manufName->setValue("ESPresense");
+        manufName->setValue("ESPresence");
         manufName->setCallbacks(&chrCallbacks);
         NimBLECharacteristic *appearance = deviceInfo->createCharacteristic("2A01", NIMBLE_PROPERTY::READ, 2);
         appearance->setValue((int16_t) 0x4142);

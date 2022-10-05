@@ -23,8 +23,8 @@
 #define BLE_SCAN_INTERVAL 0x80
 #define BLE_SCAN_WINDOW 0x80
 
-// Define the base topic for room detection. Usually "espresense"
-#define CHANNEL "espresense"
+// Define the base topic for room detection. Usually "espresence"
+#define CHANNEL "espresence"
 
 // Replace with your MQTT Broker address
 #define DEFAULT_MQTT_HOST "mqtt.z13.org"
